@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "GM Fenix II Pro Demo",
+    "slug": "busra-showcase-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./GM 26 Pro/gmicongm.png",
+    "userInterfaceStyle": "automatic",
+    "androidNavigationBar": {
+      "visible": false
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.halillcakirr.showcaseapp"
+    },
+    "android": {
+      "package": "com.halillcakirr.showcaseapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./GM 26 Pro/gmicongm.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "130e23ca-1ae9-47ae-b57e-1a61d677d0f0"
+      }
+    },
+    "owner": "busraazeynepp",
+    "plugins": [
+      "expo-video"
+    ]
+  }
+}
